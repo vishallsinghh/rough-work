@@ -1,0 +1,76 @@
+.Header1{
+    display: flex;
+    background-color: rgb(73, 73, 73);
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    height: 34px;
+    overflow: hidden;
+}
+.Header1 ul{
+    display: flex;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 600;
+    list-style: none;
+    width: 100%;
+    color: #eee;
+    padding: 5px;
+    padding-left: 100px;
+}
+.Header1 ul i{
+    margin: 4px;
+    cursor: pointer;
+}
+.Header1 ul li{
+    margin-right: 30px;
+    margin-left: 5px;
+}
+.last{
+    transform: translateX(450px);
+}
+.Header1 ul li:hover{
+    cursor: pointer;
+}
+.Header1 p{
+    padding-bottom: 5px;
+    color: #eee;
+    font-size: 1.1em;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.Logo{
+    display: flex;
+    color: black;
+    width: 100%;
+    padding: 5px;
+    justify-content: space-around;
+}
+.Logo .Logo-college{
+    font-size: 1.4em;
+    padding-left: 20px;
+    padding-top: 25px;
+}
+.Logo .Logo-pictures img{
+    margin-right: 7px;
+}
+.Logo .Logo-college hr{
+    background-color: red;
+    height: 2px;
+    border: 1px red;
+}
+.college-location{
+    line-height: 28px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+.college-location i{
+    font-size: 4.5em;
+    margin-top: -20px;
+    /* transform: translateY(-15px); */
+    margin-left: 10px;
+    color: grey;
+    z-index: 1;
+}
